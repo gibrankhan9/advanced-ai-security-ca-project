@@ -18,7 +18,7 @@ from playsound import playsound
 
 #___________Extra Modules ki coding_____________
 def Speak(audio):
-    # code pyttsx3 module initialize krne ke liye
+    # code pyttsx3 module initialize krne ke liy
     engine = pyttsx3.init()
     engine.say(audio)
     engine.runAndWait()
